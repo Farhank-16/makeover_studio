@@ -62,7 +62,7 @@ export default function Home() {
               <div className="flex items-center gap-2 text-xs text-[#7B766F] pt-2 border-t border-[#1F1E1D]/10 w-full max-w-lg">
                 <MapPin className="w-4 h-4 text-[#C5A880] shrink-0" />
                 <span>
-                  <strong>{BRAND_CONFIG.location.area}, {BRAND_CONFIG.location.city}</strong> • Near Hariyana Marriage Garden
+                  <strong>{BRAND_CONFIG.location.area}, {BRAND_CONFIG.location.city}</strong> • Behind Darbar School
                 </span>
               </div>
             </motion.div>
@@ -116,7 +116,7 @@ export default function Home() {
               <div className="relative aspect-[4/3] sm:aspect-[14/11] rounded-[3px] overflow-hidden bg-[#EFE9E0] border border-[#1F1E1D]/10 shadow-lg">
                 <img
                   src={IMAGES.studio.interior}
-                  alt="Makeover Beauty Studio interior in Mahesh Nagar Jaipur"
+                  alt="Makeover Beauty Studio interior in Jhotwara Jaipur"
                   loading="lazy"
                   className="w-full h-full object-cover"
                 />
@@ -148,7 +148,7 @@ export default function Home() {
               </p>
 
               <p className="font-sans text-sm sm:text-base text-[#7B766F] leading-relaxed mb-8">
-                Nestled in Mahesh Nagar, Jaipur, our studio combines modern dermatological skin treatments with high-fashion bridal artistry, ensuring you experience refined elegance in a serene environment.
+                Nestled in Jhotwara, Jaipur, our studio combines modern dermatological skin treatments with high-fashion bridal artistry, ensuring you experience refined elegance in a serene environment.
               </p>
 
               <Button to="/about" variant="primary" size="md" icon={ArrowRight}>
@@ -296,7 +296,7 @@ export default function Home() {
             <div className="bg-[#1F1E1D] text-[#FAF8F5] p-8 rounded-[3px] border border-[#C5A880]/30 flex flex-col justify-between">
               <div>
                 <span className="label-caps text-xs text-[#C5A880] mb-3 block">
-                  Mahesh Nagar Atelier
+                  Jhotwara Atelier
                 </span>
                 <h3 className="font-serif text-xl text-[#FAF8F5] mb-3">
                   Your Sanctuary in Jaipur

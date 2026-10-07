@@ -50,7 +50,7 @@ export const GALLERY_ITEMS = [
     category: "Studio",
     categoryLabel: "Studio Space",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD3JwNn4VEIMolsNBLeeSUPeBfLY5HAZZN9r8P41Vr0R7cl_H3OisfU6i3m9kIV5jLSh7xBbGcY-B0arpJ6NW0NCUh1s_PNc_k75mujanumj4flVXvQH-wQTXZFRytsV4GQIoLFezZQJODqEg44qfEb3W8FV8XpSVlp7IcG-TPf8rzZ3TXSNGKosM-n0ArJkY_UsP8Pci_BCN7ufjMGSymNPaA44P7RE--Y2q5M1z0hCFQhhpev7IflAw",
-    alt: "Private vanity dressing suite with arched brass mirrors in Mahesh Nagar studio",
+    alt: "Private vanity dressing suite with arched brass mirrors in Jhotwara studio",
     aspect: "landscape"
   },
   {

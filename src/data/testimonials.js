@@ -11,11 +11,11 @@ export const TESTIMONIALS = [
   {
     id: 2,
     clientName: "Ananya M.",
-    location: "Mahesh Nagar",
+    location: "Jhotwara",
     service: "Signature Facial & Hair Spa",
     rating: 5,
     date: "Studio Client",
-    quote: "Such a serene and peaceful studio right here in Mahesh Nagar. The attention to skin prep and the personalized hair treatment made my hair look healthy and radiant."
+    quote: "Such a serene and peaceful studio right here in Jhotwara. The attention to skin prep and the personalized hair treatment made my hair look healthy and radiant."
   },
   {
     id: 3,

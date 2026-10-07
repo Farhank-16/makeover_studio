@@ -6,6 +6,7 @@ import PageHero from '../components/PageHero';
 import Button from '../components/Button';
 import WhatsAppButton from '../components/WhatsAppButton';
 import LocationMap from '../components/LocationMap';
+import SectionHeading from '../components/SectionHeading';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -75,7 +76,7 @@ export default function Contact() {
       <PageHero
         eyebrow="APPOINTMENTS & VISITS"
         title="Let's Create Your Look"
-        subtitle="Request your studio consultation or bridal appointment in Mahesh Nagar, Jaipur. We look forward to welcoming you."
+        subtitle="Request your studio consultation or bridal appointment in Jhotwara, Jaipur. We look forward to welcoming you."
       />
 
       {/* Main Appointment & Contact Grid */}
@@ -326,6 +327,18 @@ export default function Contact() {
 
                 <div className="pt-4 border-t border-[#1F1E1D]/10">
                   <h4 className="label-caps text-xs text-[#9C825C] mb-2">
+                    Direct Phone / WhatsApp
+                  </h4>
+                  <a
+                    href={`tel:${BRAND_CONFIG.contact.WHATSAPP_NUMBER}`}
+                    className="text-sm sm:text-base text-[#1F1E1D] font-bold hover:text-[#9C825C] transition-colors"
+                  >
+                    {BRAND_CONFIG.contact.phoneDisplay}
+                  </a>
+                </div>
+
+                <div className="pt-4 border-t border-[#1F1E1D]/10">
+                  <h4 className="label-caps text-xs text-[#9C825C] mb-2">
                     Hours of Operation
                   </h4>
                   <p className="text-sm text-[#1F1E1D] font-semibold">
@@ -341,7 +354,7 @@ export default function Contact() {
                     Landmark Guide
                   </h4>
                   <p className="text-xs text-[#4A4640] leading-relaxed">
-                    Near Hariyana Marriage Garden, Gopalpura Mode, Mahesh Nagar, Jaipur.
+                    Behind Darbar School, Jhotwara, Jaipur.
                   </p>
                 </div>
               </div>
@@ -358,7 +371,7 @@ export default function Contact() {
           <SectionHeading
             eyebrow="STUDIO MAP & DIRECTIONS"
             title="Finding Our Jaipur Atelier"
-            subtitle="Follow the map below for straightforward directions to our Mahesh Nagar studio."
+            subtitle="Follow the map below for straightforward directions to our Jhotwara studio."
           />
 
           <LocationMap />

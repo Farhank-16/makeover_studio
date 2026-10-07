@@ -24,7 +24,7 @@ export default function CTASection({
           {/* Eyebrow */}
           <div className="inline-flex items-center gap-2 label-caps text-xs text-[#E0C298] mb-4">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Mahesh Nagar, Jaipur</span>
+            <span>Jhotwara, Jaipur</span>
           </div>
 
           {/* Heading */}

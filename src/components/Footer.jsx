@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Clock, ArrowUpRight, Sparkles } from 'lucide-react';
+import { MapPin, Clock, ArrowUpRight, Sparkles, Phone } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/config';
 import WhatsAppButton from './WhatsAppButton';
 
@@ -21,7 +21,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-[#FAF8F5]/70 leading-relaxed max-w-sm mb-6">
-              A serene beauty haven in Mahesh Nagar, Jaipur dedicated to bridal couture, radiant skin therapies, artisan hair, and bespoke makeup rituals.
+              A serene beauty haven in Jhotwara, Jaipur dedicated to bridal couture, radiant skin therapies, artisan hair, and bespoke makeup rituals.
             </p>
             <div className="flex items-center gap-3">
               <WhatsAppButton
@@ -103,11 +103,21 @@ export default function Footer() {
                     href={BRAND_CONFIG.location.mapQuery}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#C5A880] hover:underline inline-flex items-center gap-1 mt-1.5 font-medium"
+                    className="text-[#C5A880] hover:underline inline-flex items-center gap-1 mt-1.5 font-medium block"
                   >
-                    View on Google Maps <ArrowUpRight className="w-3 h-3" />
+                    View on Google Maps <ArrowUpRight className="w-3 h-3 inline" />
                   </a>
                 </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 pt-1">
+                <Phone className="w-4 h-4 text-[#C5A880] shrink-0" />
+                <a
+                  href={`tel:${BRAND_CONFIG.contact.WHATSAPP_NUMBER}`}
+                  className="font-semibold text-[#FAF8F5] hover:text-[#C5A880] transition-colors"
+                >
+                  {BRAND_CONFIG.contact.phoneDisplay}
+                </a>
               </div>
 
               <div className="flex items-start gap-2.5 pt-2">
@@ -141,7 +151,7 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Makeover Beauty Studio. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <Sparkles className="w-3 h-3 text-[#C5A880]" />
-            <span>Mahesh Nagar, Jaipur, Rajasthan</span>
+            <span>Jhotwara, Jaipur, Rajasthan</span>
           </div>
         </div>
       </div>

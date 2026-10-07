@@ -8,14 +8,14 @@ export const IMAGES = {
     bridePortrait: "https://lh3.googleusercontent.com/aida-public/AB6AXuBM6GW3OjKr_PwSoW23m4eN5ea3kcFjMSIMBj4A0I2o8gVwp98l2q3mSYRpkYXXKhHt9xSGpaRWsb5Pzei1JRBwQxz4y3CXJtBiJypSuAFUuvR_DRxx-we0ZxoNmw7m6HTNAVwMWcfJc2mtkPIgOF1Qx4uvWOypzNJbChn7mYb_MA0Q8m2Lf2WmeeegdmezPzWGxQG0tsNW8-4au_RTg131fWtGqHTeaLgKGncVqLx3Pt-q7DP7JTd80g",
     alt: "Editorial bride portrait adorned in luxury Rajasthani attire with subtle gold and dewy beauty makeup"
   },
-  
+
   studio: {
     interior: "https://lh3.googleusercontent.com/aida-public/AB6AXuD3JwNn4VEIMolsNBLeeSUPeBfLY5HAZZN9r8P41Vr0R7cl_H3OisfU6i3m9kIV5jLSh7xBbGcY-B0arpJ6NW0NCUh1s_PNc_k75mujanumj4flVXvQH-wQTXZFRytsV4GQIoLFezZQJODqEg44qfEb3W8FV8XpSVlp7IcG-TPf8rzZ3TXSNGKosM-n0ArJkY_UsP8Pci_BCN7ufjMGSymNPaA44P7RE--Y2q5M1z0hCFQhhpev7IflAw",
     mirrorDetail: "https://lh3.googleusercontent.com/aida-public/AB6AXuCJbeevC1TJ551dv2TpdcV9MozOX9ySbIKqHGTad3hTXV2FV9SMlslnAexFwkRNlbOLufeRmOA7rHNxoPjVfHTOgY7oGH1YFT3fOMndF-Dbb2Xct-iAXt2znm6R74fY6S_QnZEvCYb0P487odJBjQNbmDRJfhGhR-V8z3mg4E3wg_IE2J3d3QxViyRyIvv4ZBm_vh-d9BfDfy-GVCfDG38ucgKElTWAc2WRwnXT3AjbIfwe3aeZgp5JDA",
     brushes: "https://lh3.googleusercontent.com/aida-public/AB6AXuBzv2p92F0dkpx_NDlydDxFITcVtLyIiNQxIB_TtVMG83ATNP6FuvJS1ZV6O31kunn6giWQnov07VijLW1lK_OLYI2juATl4wVQUtvyVUfh42uvZQ_WD978qoaUppHeeow2O8mdvKYXJj1H-EFwRpSXtW5zNtty8l2z0ZvEL4_UGfIC6_ocOR3yJ5hh86nMlpBcWmP4ka8SGn8Szir_kEvbd-SGp_7zBsDeCiVPyfUO1_I7I3hi2oNfPQ",
     makeupArtistAtWork: "https://lh3.googleusercontent.com/aida-public/AB6AXuDaEmy2CfbxHPBN75t0W7qOXcP6y_D5m3WCvD6Nf78kOlR2O5UhSMAeSg99UvRb-RqtvfrBn7in0xRmHgHRAnLvBlrBuTpHn_Gt63pv6ksY61qHrlJ5XJuCjyPCC9Q05MwAZASHX3m7VXvqOLX7xXKHdC9Y3bafZiP_TQsAP2uA-kBNa-X7R1VxqLQ0Cf_LzOv5HL-TlC5Zyy5H5q6VM9YIqBrrSL8CqudgPGEX9yLiHgh6q1b6zv5OxA"
   },
-  
+
   services: {
     makeup: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqwVzGUaKUnOxdZNUV9RG6vaNQKs6B3MYtUIly3pSoUYF33yiqjbLRQHjvA_dN42VI_HD-OPQ1ei-DG0bz3JcgxHPKA2LiFLi-kLQVXFGJoiizBRbWkObOBWbp6FOdu3C835y4t7y_K8grbBKN3JhiO-UTXVRk_5Uwt-AKlhYO1O--qemKcOsPA4syugdcHbS5rmq25B9M9qp7HRFvlam16VVzu03g2kOgiLq3BBNMLVDWON3f9Xj09A",
     hair: "https://lh3.googleusercontent.com/aida-public/AB6AXuBpRX4GTfvAh8WCcnqmonhZ28lPtpsSZLGnQVUO_x_EcnX99ryUf7VdnLAH6nPvO1HU3azNPBpYP17uCEY7gXpXVFAEyIMoVKb4FSoJdDylKHI84ACAA3Ikpyd3yLLEDZxeSYdyR4STFod9LAt1pOw4FMY6fa92mlS5N1DFSEkCILqX9DdJfQzls0v8GzDbEF7dGjeEsb8WJQieB-MXqNbWxfRPSK3fd9xt0jw4sx6iisCQO3UY5VSqvg",
@@ -24,6 +24,6 @@ export const IMAGES = {
     bridal: "https://lh3.googleusercontent.com/aida-public/AB6AXuDE19zL3cAKAP6UqwVZMSNN7Y19psRQBZ3LPMjhIV28CL1mI6LND_H4IinvZYDwQgqB6L1z4nt58uQeQGRpJISffGml5dy3KB7E8iF6hmQgVeV-aLcyvX-LeDUzjFwdZFUatIahTfNROSfSD0aKvwU6xUPaqM6XDy3HtRX2ouISsSodaqrc65XQBsoOR0gKPoLmp_Ln0phUyQgQJToRWEhhd2Q7TForbf6bPA89J0yfTSzj7IbJkIUAkQ",
     grooming: "https://lh3.googleusercontent.com/aida-public/AB6AXuCktocNNqXZU2czV1XrlDPAm9P_Alyz-cpZEbaUnkFocQhNX16xzWQQIteqHWz8RaNRMPo1aiS7cLRKwYYsRcNmxomDbAZSifsNrw2ozn-sablw28YbFlO8d5MjYnGjKp5ETXiLkJd5xh0mOZBL36IiiTD2kz8jx6oqWkY2X8cLk-U-fpI-1leQ_Xecvps8g7wkXh305HyZTdvAhqJu5-_MJBuVQhmbIX0b5JVMVKu1RLeMjF7IWj8Sqg"
   },
-  
-  mapVisual: "https://lh3.googleusercontent.com/aida-public/AB6AXuDO4U04lb4CflIh-Vykm1tNCVzHuubByPC4qABmgdjdfrwfws1mjiSmFYsrVbEDL8_7KtNvvFFv2jBMNgFWyUC-5qLULz2jyhvZGq8JzZ2VOYb3eM4Pj_lQG2WtolqFqIH5VWqEJpUSG7ykw6uVsvCOqW_NsNxyrSvJN8OO-HeNZOQSX-HhqFCFFnCADcyoalmBQvH--zfWCBe4Yc86FTkdQAngU4V5teA37oCCefydnDgAkPsEZ6Bzew"
+
+  mapVisual: "/location-map.png"
 };

@@ -6,16 +6,16 @@ export const BRAND_CONFIG = {
   description: "Professional makeup, hair, skincare and beauty services crafted for your most special moments in Jaipur.",
   
   location: {
-    street: "96, Pushpanjali Colony, Ganga Vihar Colony, Gopalpura Mode",
-    landmark: "near Hariyana Marriage Garden",
-    area: "Mahesh Nagar",
+    street: "47- A Maheshpuri",
+    landmark: "behind Darbar School",
+    area: "Jhotwara",
     city: "Jaipur",
     state: "Rajasthan",
-    pincode: "302015",
-    fullAddress: "96, Pushpanjali Colony, Ganga Vihar Colony, Gopalpura Mode, near Hariyana Marriage Garden, Mahesh Nagar, Jaipur, Rajasthan 302015",
-    shortAddress: "Mahesh Nagar, Jaipur, Rajasthan",
-    mapQuery: "https://www.google.com/maps/search/?api=1&query=Makeover+Beauty+Studio+Mahesh+Nagar+Jaipur+Rajasthan+302015",
-    embedMapUrl: "https://maps.google.com/maps?q=96,+Pushpanjali+Colony,+Ganga+Vihar+Colony,+Mahesh+Nagar,+Jaipur,+Rajasthan+302015&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    pincode: "302012",
+    fullAddress: "47- A Maheshpuri, behind Darbar School, Jhotwara, Jaipur, Rajasthan 302012",
+    shortAddress: "Jhotwara, Jaipur, Rajasthan",
+    mapQuery: "https://www.google.com/maps/search/?api=1&query=26.9539243,75.7377341",
+    embedMapUrl: "https://maps.google.com/maps?q=26.9539243,75.7377341&t=&z=16&ie=UTF8&iwloc=&output=embed"
   },
   
   hours: {
@@ -26,9 +26,9 @@ export const BRAND_CONFIG = {
   },
   
   contact: {
-    // WhatsApp number configuration - single source of truth (placeholder as requested)
-    WHATSAPP_NUMBER: "+919876543210",
-    phoneDisplay: "+91 (Enquire via WhatsApp)",
+    // WhatsApp number configuration - single source of truth
+    WHATSAPP_NUMBER: "+918559996476",
+    phoneDisplay: "+91 85599 96476",
     email: "enquiry@makeoverbeautystudio.com",
     defaultWhatsAppMessage: "Hello Makeover Beauty Studio, I would like to enquire about booking an appointment."
   },

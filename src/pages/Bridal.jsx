@@ -45,7 +45,7 @@ export default function Bridal() {
                 Harmony of Ritual & Precision Artistry
               </h2>
               <p className="text-sm sm:text-base text-[#4A4640] leading-relaxed mb-6">
-                A bride's glow is a delicate blend of peaceful preparation, deep skin nourishment, and artistic precision. In our Mahesh Nagar studio, we take time to harmonize your makeup with the intricate embroidery of your lehenga, heirloom jewelry, and venue lighting.
+                A bride's glow is a delicate blend of peaceful preparation, deep skin nourishment, and artistic precision. In our Jhotwara studio, we take time to harmonize your makeup with the intricate embroidery of your lehenga, heirloom jewelry, and venue lighting.
               </p>
               <p className="text-xs sm:text-sm text-[#7B766F] leading-relaxed mb-8">
                 Whether you envision a regal Rajputana bridal look with deep crimson lips and sculpted eyes, or an ethereal dewy pastel drape with glass skin, we create a look that feels completely authentic to you.

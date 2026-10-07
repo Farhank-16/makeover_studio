@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5">
               <MapPin className="w-3 h-3 text-[#C5A880]" />
-              {BRAND_CONFIG.location.shortAddress} (Near Hariyana Marriage Garden)
+              {BRAND_CONFIG.location.shortAddress} (Behind Darbar School)
             </span>
             <span className="flex items-center gap-1.5">
               <Clock className="w-3 h-3 text-[#C5A880]" />

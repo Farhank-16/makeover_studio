@@ -19,7 +19,7 @@ export default function About() {
       <PageHero
         eyebrow="ABOUT MAKEOVER BEAUTY STUDIO"
         title="More Than a Beauty Studio"
-        subtitle="A tranquil haven in Mahesh Nagar, Jaipur where bespoke artistry, personal attention, and high-performance beauty rituals unite."
+        subtitle="A tranquil haven in Jhotwara, Jaipur where bespoke artistry, personal attention, and high-performance beauty rituals unite."
       />
 
       {/* 1. Studio Introduction & Atmosphere */}
@@ -33,7 +33,7 @@ export default function About() {
                 <div className="aspect-[4/5] rounded-[3px] overflow-hidden bg-[#EFE9E0] border border-[#1F1E1D]/10 shadow-md">
                   <img
                     src={IMAGES.studio.interior}
-                    alt="Private dressing suite in Mahesh Nagar studio"
+                    alt="Private dressing suite in Jhotwara studio"
                     loading="lazy"
                     className="w-full h-full object-cover"
                   />
@@ -61,7 +61,7 @@ export default function About() {
                 At Makeover Beauty Studio, we believe that beauty is deeply personal. Whether you are stepping in for a restorative weekend facial, precise eyebrow sculpting, or preparing for your royal wedding day, our focus remains steadfast: celebrating what makes you uniquely you.
               </p>
               <p className="text-xs sm:text-sm text-[#7B766F] leading-relaxed mb-8">
-                Located in Mahesh Nagar, Jaipur, our boutique atelier provides an escape from the city's bustle. Here, clients enjoy private consultation suites, attentive listening, and high-end hygiene standards tailored to sensitive skin and discerning aesthetics.
+                Located in Jhotwara, Jaipur, our boutique atelier provides an escape from the city's bustle. Here, clients enjoy private consultation suites, attentive listening, and high-end hygiene standards tailored to sensitive skin and discerning aesthetics.
               </p>
               
               <div className="grid grid-cols-2 gap-6 w-full pt-4 border-t border-[#1F1E1D]/10">
@@ -129,13 +129,13 @@ export default function About() {
         </div>
       </section>
 
-      {/* 3. Location & Studio in Mahesh Nagar */}
+      {/* 3. Location & Studio in Jhotwara */}
       <section className="py-20 sm:py-24 bg-[#FAF8F5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="JAIPUR ATELIER"
-            title="Visit Our Mahesh Nagar Studio"
-            subtitle="Conveniently situated near Gopalpura Mode and Hariyana Marriage Garden."
+            title="Visit Our Jhotwara Studio"
+            subtitle="Conveniently situated in Jhotwara behind Darbar School."
           />
 
           <LocationMap />

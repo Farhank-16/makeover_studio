@@ -19,24 +19,24 @@ function RouteMetaManager() {
   useEffect(() => {
     const titles = {
       '/': 'Makeover Beauty Studio | Beauty & Makeup Studio in Jaipur',
-      '/about': 'About Us | Makeover Beauty Studio Mahesh Nagar Jaipur',
+      '/about': 'About Us | Makeover Beauty Studio Jhotwara Jaipur',
       '/services': 'Beauty Services | Makeover Beauty Studio Jaipur',
       '/bridal': 'Bridal Makeup & Beauty Services | Makeover Beauty Studio',
       '/gallery': 'Makeover Beauty Studio | Bridal & Beauty Gallery',
-      '/contact': 'Contact Makeover Beauty Studio | Mahesh Nagar, Jaipur'
+      '/contact': 'Contact Makeover Beauty Studio | Jhotwara, Jaipur'
     };
 
     const descriptions = {
-      '/': 'Makeover Beauty Studio in Mahesh Nagar, Jaipur. Luxury bridal makeup, hair styling, skin treatments, facials, nail care, and bespoke grooming rituals.',
-      '/about': 'Discover the philosophy, personalized care, and serene atmosphere of Makeover Beauty Studio in Mahesh Nagar, Jaipur.',
+      '/': 'Makeover Beauty Studio in Jhotwara, Jaipur. Luxury bridal makeup, hair styling, skin treatments, facials, nail care, and bespoke grooming rituals.',
+      '/about': 'Discover the philosophy, personalized care, and serene atmosphere of Makeover Beauty Studio in Jhotwara, Jaipur.',
       '/services': 'Explore our complete services menu: HD bridal makeup, haircuts, hair color, rejuvenating facials, Rica waxing, and manicure pedicures in Jaipur.',
       '/bridal': 'Bridal couture, engagement makeup, pre-bridal wellness rituals, and royal groom grooming in Jaipur by Makeover Beauty Studio.',
-      '/gallery': 'Lookbook and portfolio of real brides, airbrush makeup, couture hair updos, and beauty artistry in Mahesh Nagar, Jaipur.',
-      '/contact': 'Book an appointment or consultation at Makeover Beauty Studio in Mahesh Nagar, Jaipur. Reach us directly on WhatsApp or view map directions.'
+      '/gallery': 'Lookbook and portfolio of real brides, airbrush makeup, couture hair updos, and beauty artistry in Jhotwara, Jaipur.',
+      '/contact': 'Book an appointment or consultation at Makeover Beauty Studio in Jhotwara, Jaipur. Reach us directly on WhatsApp or view map directions.'
     };
 
     const currentPath = location.pathname;
-    document.title = titles[currentPath] || 'Makeover Beauty Studio | Mahesh Nagar, Jaipur';
+    document.title = titles[currentPath] || 'Makeover Beauty Studio | Jhotwara, Jaipur';
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
